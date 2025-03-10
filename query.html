@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Query </title>
+    <style>
+        .container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 10px;
+        }
+
+        .food {
+            border: 1px solid tomato;
+            padding: 10px;
+            border-radius: 5px;
+
+        }
+
+        .food img {
+            width: 100%;
+        }
+
+        /* Smaller Device  */
+        @media screen and (max-width:576px) {
+            .container {
+                grid-template-columns: repeat(1, 1fr);
+            }
+
+            .food {
+                background-color: aquamarine;
+            }
+        }
+
+        @media screen and (min-width:577px) and (max-width:992px) {
+            .container {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="food">
+            <img src="images/foodwap.jfif" alt="">
+            <h3>foof Item -1</h3>
+            <p>Price : $100</p>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto corporis rem nam nemo, enim modi
+                nostrum voluptate voluptatibus natus doloremque.</p>
+            <button>Buy Now</button>
+        </div>
+        <div class="food">
+            <img src="images/foodwap.jfif" alt="">
+            <h3>foof Item -2</h3>
+            <p>Price : $200</p>
+            <p>Commodi, natus nesciunt odio voluptatum cum, dolor consequuntur atque minima optio earum fugit adipisci
+                veritatis perferendis voluptatibus, numquam et non?</p>
+            <button>Buy Now</button>
+        </div>
+        <div class="food">
+            <img src="images/foodwap.jfif" alt="">
+            <h3>foof Item -3</h3>
+            <p>Price : $300</p>
+            <p>Asperiores natus consequatur sit facilis, fugit nostrum sed esse sunt accusamus rem libero ullam dolores
+                perspiciatis. Tempora quos nemo dolorem?</p>
+            <button>Buy Now</button>
+        </div>
+        <div class="food">
+            <img src="images/foodwap.jfif" alt="">
+            <h3>foof Item -4</h3>
+            <p>Price : $400</p>
+            <p>Quidem earum ipsum explicabo mollitia eius? Quo pariatur inventore, maxime velit est, iusto iure fugit
+                facere id vel rerum nihil.</p>
+            <button>Buy Now</button>
+        </div>
+        <div class="food">
+            <img src="images/foodwap.jfif" alt="">
+            <h3>foof Item -5</h3>
+            <p>Price : $500</p>
+            <p>Asperiores enim officia porro dolore error neque incidunt corrupti! Fugiat deserunt optio maiores impedit
+                placeat mollitia exercitationem, enim doloribus illo!</p>
+            <button>Buy Now</button>
+        </div>
+        <div class="food">
+            <img src="images/foodwap.jfif" alt="">
+            <h3>foof Item -6</h3>
+            <p>Price : $600</p>
+            <p>Repellat, accusamus? Sapiente, animi nobis quibusdam, provident, omnis cumque cupiditate doloribus
+                laudantium at deleniti natus rem nostrum fuga laboriosam assumenda?</p>
+            <button>Buy Now</button>
+        </div>
+        <div class="food">
+            <img src="images/foodwap.jfif" alt="">
+            <h3>foof Item -7</h3>
+            <p>Price : $700</p>
+            <p>Ab blanditiis voluptas possimus necessitatibus voluptatibus omnis nobis, ipsa modi aspernatur nihil rem,
+                saepe maxime pariatur enim nemo ad deserunt.</p>
+            <button>Buy Now</button>
+        </div>
+        <div class="food">
+            <img src="images/foodwap.jfif" alt="">
+            <h3>foof Item -8</h3>
+            <p>Price : $800</p>
+            <p>Aspernatur blanditiis dolores facere harum ab iusto debitis sit commodi dicta, eveniet, quis quas laborum
+                accusamus omnis aliquid asperiores qui?</p>
+            <button>Buy Now</button>
+        </div>
+        <div class="food">
+            <img src="images/foodwap.jfif" alt="">
+            <h3>foof Item -9</h3>
+            <p>Price : $900</p>
+            <p>Expedita laborum asperiores laboriosam natus quis nostrum saepe rerum inventore reiciendis veritatis,
+                labore magni aspernatur voluptatum doloribus itaque dolor autem?</p>
+            <button>Buy Now</button>
+        </div>
+        <div class="food">
+            <img src="images/foodwap.jfif" alt="">
+            <h3>foof Item -10</h3>
+            <p>Price : $1000</p>
+            <p>A porro consequatur natus minima, modi aut at voluptatibus nam aperiam, repudiandae voluptatum suscipit
+                incidunt, saepe nisi maiores facilis nostrum.</p>
+            <button>Buy Now</button>
+        </div>
+        <div class="food">
+            <img src="images/foodwap.jfif" alt="">
+            <h3>foof Item -11</h3>
+            <p>Price : $1100</p>
+            <p>Error, eligendi accusantium voluptas labore facere voluptates facilis dolores laborum tempore incidunt,
+                delectus qui dignissimos veniam natus ab? Numquam, tempore.</p>
+            <button>Buy Now</button>
+        </div>
+        <div class="food">
+            <img src="images/foodwap.jfif" alt="">
+            <h3>foof Item -12</h3>
+            <p>Price : $1200</p>
+            <p>Officiis mollitia rem laboriosam voluptatum magni animi nihil repellat ab inventore necessitatibus. Amet
+                numquam minus eaque quos adipisci similique nihil?</p>
+            <button>Buy Now</button>
+        </div>
+    </div>
+</body>
+
+</html>
